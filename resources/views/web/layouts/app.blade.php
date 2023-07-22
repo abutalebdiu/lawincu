@@ -72,7 +72,7 @@
 <body>
     <!-- TOP HEADER PART START -->
     <section class="header-top py-2">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 text-end">
                     <div class="menubar">
@@ -110,7 +110,7 @@
     <!-- TOP HEADER PART END -->
     <!--    HEADER SECTION-->
     <header class="d-flex align-items-center py-2">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row align-items-center">
                 <div class="col-12 col-lg-2">
                     <div class="logo d-flex justify-content-between align-items-center">

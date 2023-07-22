@@ -77,70 +77,8 @@ button {
     border: none;
 }
 
-.paragraph {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    color: var(--ggc);
-}
 
-.small-text {
-    font-weight: 400;
-    font-size: 14px;
-    color: var(--ggc);
-}
 
-.custom-btn a {
-    font-weight: 600;
-    font-size: 18px;
-    color: var(--wc);
-    background: var(--bgc);
-    padding: 15px 38px;
-    border-radius: 50px;
-    transition: .5s ease;
-}
-
-.custom-btn a:hover {
-    background: var(--bgc);
-    color: var(--wc);
-}
-
-.read-more a {
-    font-weight: 400;
-    font-size: 14px;
-    color: #1E88E5;
-    transition: 0.5s;
-    text-decoration: underline;
-}
-
-.read-more a:hover {
-    color: #027be6;
-    font-style: italic;
-    margin-left: 5px;
-}
-
-.submit-btn {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 21px;
-    color: #ffffff;
-    background: #712F9A;
-    padding: 12px 20px;
-    border-radius: 5px;
-}
-
-.apply-btn {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 21px;
-    color: #ffffff;
-    background: #712F9A;
-    padding: 10px 8px;
-    border-radius: 5px;
-}
-.apply-btn:hover{
-    color: #ffffff;
-}
 
 .scrolled {
     position: sticky;
@@ -221,7 +159,9 @@ button {
     color: var(--wc);
 }
 
-
+.page-title{
+    text-align: center;
+}
 .background-color1 {
     background-size: 50% 70% !important;
     background-image: radial-gradient(#cfe9ff, #cfe9ff, #ffffff, transparent);
@@ -746,5 +686,22 @@ header {
 /* ===========================================================  FOOTER PART END ============================================================== */
 
 
+
+
+/* ================================ // our serivce ======================== */
+.ourservices{
+    background-color:  #F6F6F6;
+
+}
+.ourserviceitem:hover{
+    background-color: #2196F3 !important;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.ourserviceitem p{
+    text-align: justify;
+}
+/* ================================ // our serivce ======================== */
 
 
