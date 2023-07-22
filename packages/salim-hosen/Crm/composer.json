@@ -1,0 +1,31 @@
+{
+    "name": "salim-hosen/crm",
+    "description": "Frontend Menu and Page",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Salim Hosen",
+            "email": "salim7cse@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SalimHosen\\Crm\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SalimHosen\\Crm\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SalimHosen\\Crm\\Providers\\CrmServiceProvider"
+            ]
+        }
+    }
+}

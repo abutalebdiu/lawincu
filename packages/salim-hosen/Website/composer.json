@@ -1,0 +1,31 @@
+{
+    "name": "salim-hosen/website",
+    "description": "Frontend Menu and Page",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Salim Hosen",
+            "email": "salim7cse@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SalimHosen\\Website\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SalimHosen\\Website\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SalimHosen\\Website\\Providers\\WebsiteServiceProvider"
+            ]
+        }
+    }
+}

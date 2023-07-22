@@ -1,0 +1,31 @@
+{
+    "name": "salim-hosen/core",
+    "description": "Core Package contains Country, States and Cities Cruds",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Salim Hosen",
+            "email": "salim7cse@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SalimHosen\\Core\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SalimHosen\\Core\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SalimHosen\\Core\\Providers\\CoreServiceProvider"
+            ]
+        }
+    }
+}
