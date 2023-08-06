@@ -26,7 +26,7 @@ use App\Http\Controllers\Admin\PropertyController;
  // Web Routes
     Route::get('/', [WebController::class, 'index'])->name('welcome');
     Route::get('aboutus',[WebController::class,'aboutus'])->name('aboutus');
-
+    Route::get('contact',[WebController::class,'contact'])->name('contact');
     // End Web Routes
 
 

@@ -24,6 +24,13 @@ class WebController extends Controller
         return view('web.aboutus');
     }
 
+    public function contact(Request $request)
+    {
+
+
+        return view('web.single_contact');
+    }
+
     public function getstate(Request $request)
     {
         $states = State::where('country_id',$request->country)->get();

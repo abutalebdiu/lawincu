@@ -12,26 +12,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/logo/logo.png" type="image/gif" sizes="16x16">
+    <link rel="icon" href="{{ asset('web/img/logo/favicon.jpg') }}" type="image/gif" sizes="16x16">
     <meta name="csrf-token" content="">
-    <title> @yield('title') - @lang('homepage.amlakincu') </title>
-    <link rel="canonical" href="https://amlakincu.com" />
-    <meta name='description' content="" />
-    <meta name='keywords' content="Amlak" />
-    <meta property="og:url" content="https://amlakincu.com" />
-    <meta property="og:type" content="Amlak Incubator" />
-    <meta property="og:title" content="International Business Incubator" />
+    <title> @yield('title') - @lang('homepage.lawincu') </title>
+    <link rel="canonical" href="https://lawincu.com" />
+    <meta name='description' content="Law Incubator" />
+    <meta name='keywords' content="Law Incubator" />
+    <meta property="og:url" content="https://lawincu.com" />
+    <meta property="og:type" content="Law Incubator" />
+    <meta property="og:title" content="Law Incubator" />
     <meta property="og:description" content="" />
     <meta property="og:image" content="img/logo/logo.png" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Amlak Incubator" />
-    <meta name="twitter:site" content="Amlak Incubator" />
+    <meta name="twitter:title" content="Law Incubator" />
+    <meta name="twitter:site" content="Law Incubator" />
     <meta name="distribution" content="Global">
     <meta name="Developed By" content="AG Group" />
     <meta name="Developer" content="AG Group Team" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Amlak Incubator" />
+    <meta property="og:site_name" content="Law Incubator" />
 
     <!--    BOOSTRAP-->
     <!--    BOOSTRAP-->
@@ -115,7 +115,7 @@
                 <div class="col-12 col-lg-2">
                     <div class="logo d-flex justify-content-between align-items-center">
                         <a href="#">
-                            <img src="{{ asset('web') }}/img/logo/logo.png" alt="Logo">
+                            <img src="{{ asset('web') }}/img/logo/logo.jpg" alt="Logo">
                         </a>
                         <i class="fa fa-bars d-lg-none" onClick="mobileClick()" aria-hidden="true"></i>
                     </div>
@@ -127,7 +127,22 @@
                                 <a href="{{ route('welcome') }}">@lang('homepage.homepage') </a>
                             </li>
                             <li>
-                                <a href="{{ route('aboutus') }}"> @lang('homepage.aboutus') </a>
+                                <a href="#"> @lang('homepage.services') </a>
+                            </li>
+                            <li>
+                                <a href="#"> @lang('homepage.agency') </a>
+                            </li>
+                            <li>
+                                <a href="#"> @lang('homepage.consultancy') </a>
+                            </li>
+                            <li>
+                                <a href="#"> @lang('homepage.blog') </a>
+                            </li>
+                            <li>
+                                <a href="#"> @lang('homepage.help') </a>
+                            </li>
+                            <li>
+                                <a href="{{ route('contact') }}"> @lang('homepage.contact') </a>
                             </li>
 
 
@@ -147,7 +162,7 @@
         <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="mobile-logo mb-5">
                 <a href="{{ route('welcome') }}">
-                    <img src="{{ asset('web') }}/img/logo/logo.png" alt="mobile-logo">
+                    <img src="{{ asset('web') }}/img/logo/logo.jpg" alt="mobile-logo">
                 </a>
                 <i id="mobile-cross" class="fa fa-times" onClick="mobileClick()"></i>
             </div>
@@ -184,120 +199,102 @@
     <footer class="footer-part pt-5 pb-4">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-3">
-                    <div class="footer-left">
-                        <div class="footer-logo">
-                            <img class="" src="{{ asset('web') }}/img/logo/logo.png" alt="logo">
+                <div class="col-12 col-sm-4 col-md-4 text-white">
+                    <h4>Tax <span class="text-info">Incubator</span></h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem velit quae fugiat !</p>
+                </div>
+                <div class="col-12 col-sm-8 col-md-8">
+                    <div class="footercontact text-white border border-secondary pt-2 px-2">
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <p><span class="text-info">Say Hello</span> <i class="fa fa-phone"></i> +966551175959</p>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <p><span class="text-info">Inquiry</span> <i class="fa fa-envelope"></i> info@lawincu.com </p>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <div class="social-media-link d-md-flex ml-2">
+                                    <p class="text-info">Follow</p>
+                                    <ul class="d-flex">
+                                        <li class="mx-2">
+                                            <a href="https://www.facebook.com/" target="_blank"><i
+                                                    class="fa-brands fa-facebook"></i></a>
+                                        </li>
+                                        <li class="mx-2">
+                                            <a href="https://twitter.com/" target="_blank"><i
+                                                    class="fa-brands fa-twitter"></i></a>
+                                        </li>
+                                        <li class="mx-2">
+                                            <a href="https://www.instagram.com/" target="_blank"><i
+                                                    class="fa-brands fa-instagram"></i></a>
+                                        </li>
+                                        <li class="mx-2">
+                                            <a href="https://www.youtube.com/" target="_blank"><i
+                                                    class="fa-brands fa-youtube"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <p class="small-text text-white pt-4">
-                            @lang('homepage.webaddress')
-                        </p>
-                        <p> <i class="fa fa-phone"></i> +966551175959 </p>
-                        <p> <i class="fa fa-envelope"></i> info@amlakin.com </p>
-                        <div class="social-media-link mb-3">
-                            <p class="border-bottom py-1"><b> @lang('homepage.connectwithus') </b></p>
-                            <ul class="d-flex">
-                                <li class="mx-2">
-                                    <a href="https://www.facebook.com/" target="_blank"><i
-                                            class="fa-brands fa-facebook"></i></a>
-                                </li>
-                                <li class="mx-2">
-                                    <a href="https://twitter.com/" target="_blank"><i
-                                            class="fa-brands fa-twitter"></i></a>
-                                </li>
-                                <li class="mx-2">
-                                    <a href="https://www.instagram.com/" target="_blank"><i
-                                            class="fa-brands fa-instagram"></i></a>
-                                </li>
-                                <li class="mx-2">
-                                    <a href="https://www.youtube.com/" target="_blank"><i
-                                            class="fa-brands fa-youtube"></i></a>
-                                </li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-3">
+            </div>
+            <div class="row mt-md-5">
+                <div class="col-12 col-lg-4">
                     <div class="footer-title">
-                        <p class="border-bottom mb-4 text-white">Search Property </p>
+                        <p class="border-bottom mb-4 text-white">About Us </p>
                     </div>
                     <div class="footer-link">
                         <ul>
                             <li>
-                                <a href="#"> Property for sale </a>
+                                <a href="#">Legal Aid Servics </a>
                             </li>
                             <li>
-                                <a href="#">Property for Lease </a>
+                                <a href="#">Contact Information </a>
                             </li>
                             <li>
-                                <a href="#">Property or space Auctions </a>
+                                <a href="#">Our Contact Policy </a>
                             </li>
                             <li>
-                                <a href="#">Businesses for Sale </a>
+                                <a href="#">Services Policy </a>
+                            </li>
+                            <li>
+                                <a href="#">Services Information </a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 col-lg-3">
+                <div class="col-12 col-lg-4">
                     <div class="footer-title">
-                        <p class="border-bottom mb-4 text-white">Marketplace</p>
+                        <p class="border-bottom mb-4 text-white">Important Link</p>
                     </div>
                     <div class="footer-link">
                         <ul>
                             <li>
-                                <a href="#"> Property Appraiser </a>
+                                <a href="#"> Advisor Booking </a>
                             </li>
                             <li>
-                                <a href="#">Mortgage</a>
+                                <a href="#">Find Your Topic</a>
                             </li>
                             <li>
-                                <a href="#">Building Insurance </a>
+                                <a href="#">Search Agency</a>
                             </li>
                             <li>
-                                <a href="#">Safety and Security </a>
+                                <a href="#">Help Center </a>
                             </li>
                             <li>
-                                <a href="#">Real Estate Developer </a>
-                            </li>
-                            <li>
-                                <a href="#">Short Units </a>
-                            </li>
-                            <li>
-                                <a href="#">Photography </a>
-                            </li>
-                            <li>
-                                <a href="#">Add a partner </a>
+                                <a href="#">About Our Company </a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 col-lg-3">
-                    <div class="footer-title">
-                        <p class="border-bottom mb-4 text-white">Business Sector </p>
-                    </div>
-                    <div class="footer-link">
-                        <ul>
-                            <li>
-                                <a href="#"> Property for sale</a>
-                            </li>
-                            <li>
-                                <a href="#">Property for Lease</a>
-                            </li>
-                            <li>
-                                <a href="#">Property or space Auctions</a>
-                            </li>
-                            <li>
-                                <a href="#">Businesses for Sale </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <p class="border-bottom text-white py-1"><b>Contact</b></p>
+                <div class="col-12 col-lg-4">
+                    <p class=" text-white py-1"><b>Join with us</b></p>
                     <form action="" method="post">
-                        <div class="input-group mb-3">
+                        <div class="form-group mb-3">
                             <input type="text" class="form-control" placeholder="@lang('homepage.email')"
-                                aria-label="Email" aria-describedby="button-addon2">
-                            <button class="btn btn-outline-secondary" type="button" id="button-addon2"> <i
-                                    class="fa fa-paper-plane" aria-hidden="true"></i> </button>
+                                aria-label="Email">
+                            <button class="btn btn-info mt-3" type="button">Subscribe</button>
                         </div>
                     </form>
                 </div>
@@ -305,13 +302,27 @@
         </div>
     </footer>
     <!--    FOOTER SECTION END-->
+
     <!-- COPYRIGHT START -->
     <section class="copyright-part py-3">
         <div class="container">
-            <div class="text-center">
-                <p class="text-white">Copyright &copy; 2023 | All Rights Reserved
-                    <span> @lang('homepage.amlakincu')</span>
-                </p>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-6">
+                    <p class="pt-2">Copyright &copy; 2023 | All Rights Reserved
+                        <span> Law Incubator</span>
+                    </p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6">
+                    <div class="footer-bottom-menu">
+                        <ul>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Accessibility</a></li>
+                            <li><a href="">Business Policy</a></li>
+                            <li><a href="">Terms & Condition</a></li>
+                            <li><a href="">Help</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

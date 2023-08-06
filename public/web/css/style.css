@@ -9,6 +9,7 @@
     --pyc: #FFC700;
     --rvc: #39004E;
     --dc: #1565C0;
+    --fbg:#2C124B;
 }
 
 html {
@@ -557,7 +558,7 @@ header {
 }
 
 .footer-part {
-    background: var(--bgc);
+    background: var(--fbg);
 }
 
 .footer-left p {
@@ -642,6 +643,15 @@ header {
     background: #D83F87;
 }
 
+.footer-bottom-menu ul li{
+    float: left;
+    text-align: center;
+    padding: 6px;
+}
+.footer-bottom-menu ul li a{
+    color: #fff;
+}
+
 .social-media-link ul li {
     background: var(--rvc);
     height: 30px;
@@ -681,6 +691,7 @@ header {
 
 .copyright-part p {
     margin: 0;
+    color: #fff;
 }
 
 /* ===========================================================  FOOTER PART END ============================================================== */
@@ -705,3 +716,40 @@ header {
 /* ================================ // our serivce ======================== */
 
 
+.searchingdiv{
+    background-color: #eee;
+}
+
+
+/* contact Single */
+.agency-logo img{
+    width: 180px;
+    margin-right: 20px;
+}
+
+.agency img{
+    width: 100%;
+    height: 225px;
+}
+
+.ourserviceitem img{
+    width: 25%;
+    margin: 25px auto;
+}
+
+
+
+.arespecialist{
+    color: #2196F3;
+}
+
+
+
+
+
+
+
+.contactformbg{
+    background-color:  #E3F2FD;
+}
+/* contact Single */

@@ -1,7 +1,7 @@
 <?php
 
 return [
-
+    "lawincu"       => "law Incubator",
     "arabic"        => "اللغة العربية",
     "english"       => "English",
     "account"       => "Account",
@@ -20,6 +20,11 @@ return [
     "aboutus"       => "About Us",
     "services"      => "Services",
     "ourservices"   => "Our Services",
+    "agency"        => "Agency",
+    "consultancy"   => "Consultancy",
+    "blog"          => "Blog",
+    "help"          => "Help",
+    "contact"       => "Contact",
 
 
 
